@@ -25,3 +25,13 @@ print(slice)
 
 word = "amazing"
 print(word[1 : 6 : 2])   # returns "mzn"
+
+#---------------------- String Methods -----------------------------------
+
+print(word.count("a"))
+print(word.replace("a","r"))
+print(word.endswith("ing"))
+print(word.startswith("ama"))
+print(word.upper())
+print(word.lower())
+print(word.capitalize())
