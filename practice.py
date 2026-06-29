@@ -13,3 +13,9 @@ c = int(input("Enter number 1: "))
 d = int(input("Enter number 2: "))
 
 print(c + d)
+
+#---------------------- Strings --------------------------------------
+
+name = "Hoorain"
+slice = name[0 : 4]  # Last index is not included
+print(slice)
