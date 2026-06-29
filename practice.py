@@ -19,3 +19,9 @@ print(c + d)
 name = "Hoorain"
 slice = name[0 : 4]  # Last index is not included
 print(slice)
+
+
+#---------------------- Slicing with skip value ----------------------
+
+word = "amazing"
+print(word[1 : 6 : 2])   # returns "mzn"
