@@ -35,3 +35,10 @@ print(word.startswith("ama"))
 print(word.upper())
 print(word.lower())
 print(word.capitalize())
+
+
+#------------------------------- List in python ---------------------------------------
+l1 = [5, 8, 1, 20, 4, 6, 8]
+
+l1.sort()
+print(l1)
