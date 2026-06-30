@@ -51,3 +51,8 @@ print(l1)
 
 l1.pop(4)
 print(l1)
+
+l1.append(100)
+print(l1)
+
+print(l1.count(8))
