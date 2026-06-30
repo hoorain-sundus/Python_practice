@@ -42,3 +42,12 @@ l1 = [5, 8, 1, 20, 4, 6, 8]
 
 l1.sort()
 print(l1)
+
+l1.reverse()
+print(l1)
+
+l1.insert(3, 40)
+print(l1)
+
+l1.pop(4)
+print(l1)
