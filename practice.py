@@ -80,3 +80,9 @@ print(max(tuple1))   #output [3]
 
 concatenated = tuple1 + tuple2
 print(concatenated)
+
+repeated = tuple1 * 4
+print(repeated)
+
+a, b, c = tuple1
+print(a, b, c)       #Tuples can be unpacked into individual variable.
