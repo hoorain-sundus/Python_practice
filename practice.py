@@ -59,3 +59,12 @@ print(l1.count(8))
 
 l1.remove(1)
 print(l1)
+
+# -------------------- Tuples ---------------------------------------------
+
+t = (1, 23, 89, 100, 45, "Anaya", False)
+
+print(type(t))
+
+print(t.index(100))
+print(t.count(89))
