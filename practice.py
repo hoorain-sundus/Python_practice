@@ -56,3 +56,6 @@ l1.append(100)
 print(l1)
 
 print(l1.count(8))
+
+l1.remove(1)
+print(l1)
