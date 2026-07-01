@@ -86,3 +86,6 @@ print(repeated)
 
 a, b, c = tuple1
 print(a, b, c)       #Tuples can be unpacked into individual variable.
+
+
+print(3 in tuple1)   # check if an item exist in tuple
