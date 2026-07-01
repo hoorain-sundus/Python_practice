@@ -68,3 +68,15 @@ print(type(t))
 
 print(t.index(100))
 print(t.count(89))
+
+tuple1 = (1, 2,  3)
+tuple2 = (4, 5, 6)
+
+print(min(tuple1))   #output [1]
+print(max(tuple1))   #output [3]
+
+
+#---------------------------- Concatenation -------------------------------
+
+concatenated = tuple1 + tuple2
+print(concatenated)
