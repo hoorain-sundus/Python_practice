@@ -98,3 +98,7 @@ marks = {
     "Amna" : 70,
     "Fatima" : 68
 }
+
+print(marks)
+print(type(marks))
+print(marks["Ayesha"])
