@@ -102,3 +102,10 @@ marks = {
 print(marks)
 print(type(marks))
 print(marks["Ayesha"])
+
+print(marks.items())
+print(marks.keys())
+print(marks.values())
+
+marks.update({"Ayesha" : 23,"Aiman" : 75})
+print(marks)
