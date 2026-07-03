@@ -117,3 +117,9 @@ print(marks)
 s = {2, 1, 4, 5, 6}
 s.add(8)
 print(s)
+
+
+s1 = {1, 2}
+s1.update([3, 4, 5])
+print(s1)
+
