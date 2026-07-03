@@ -109,3 +109,11 @@ print(marks.values())
 
 marks.update({"Ayesha" : 23,"Aiman" : 75})
 print(marks)
+
+
+#--------------------------------- Sets -------------------------------------------------
+# NOTE:  Empty Dictionary = {}   and Empty Set = set()
+
+s = {2, 1, 4, 5, 6}
+s.add(8)
+print(s)
