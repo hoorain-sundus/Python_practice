@@ -123,3 +123,9 @@ s1 = {1, 2}
 s1.update([3, 4, 5])
 print(s1)
 
+s.remove(2)  # Removes a specific element (raises an error if not found)
+print(s)
+
+
+s.discard(9)  #Removes a specific element (does not raise an error if not found)
+print(s)
