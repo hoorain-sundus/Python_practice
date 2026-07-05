@@ -129,3 +129,10 @@ print(s)
 
 s.discard(9)  #Removes a specific element (does not raise an error if not found)
 print(s)
+
+S = {10, 20, 30}
+
+x = S.pop()  # returns 10
+
+print(x)
+print(S)
