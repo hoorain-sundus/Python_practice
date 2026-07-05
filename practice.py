@@ -136,3 +136,6 @@ x = S.pop()  # returns 10
 
 print(x)
 print(S)
+
+S.clear()
+print(S)
