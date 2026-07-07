@@ -158,3 +158,20 @@ s2.add(20.0)
 s2.add("20")
 
 print(len(s2))   #  20 == 20.0 is True. Data type does not matter
+
+
+dict = {}
+
+name = input("Enter name: ")
+lang = input("Enter language: ")
+dict.update({name : lang})
+
+name = input("Enter name: ")
+lang = input("Enter language: ")
+dict.update({name : lang})
+
+name = input("Enter name: ")
+lang = input("Enter language: ")
+dict.update({name : lang})
+
+print(dict)
