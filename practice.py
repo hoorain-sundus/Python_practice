@@ -175,3 +175,13 @@ lang = input("Enter language: ")
 dict.update({name : lang})
 
 print(dict)
+
+
+#--------------------------------- Conditional Expression --------------------------------------
+
+age = int(input("Enter number: "))
+
+if(age>=18):
+    print("Yes")
+else:
+    print("No")
