@@ -150,3 +150,9 @@ print(a.symmetric_difference(b))
 print(a.issubset(b))
 print(a.issuperset(b))
 print(a.isdisjoint(b))   
+
+s2 = set()
+
+s2.add(20)
+s2.add(20.0)
+s2.add("20")
