@@ -200,3 +200,10 @@ for i in range(100):
     if(i == 26):
         break;
     print(i)
+
+#----------------------------------- Continue ---------------------------------------
+
+for i in range(100):
+    if(i == 26):
+        continue;
+    print(i)
